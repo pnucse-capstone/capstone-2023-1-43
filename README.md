@@ -40,6 +40,16 @@ picamera2 == 2.6.0
 - capture_image() 함수 내의 전처리 된 이미지 저장 경로인 file_path를 설정해주세요.
 - perform_classification() 함수 내의 image_paths 의 아이콘 경로를 설정해주세요.
 
+### 파일 설명
+- GUI.py : Siamese Neural Network로 이미지 비교를 진행하는 심플한 예시 프로그램입니다.
+- Siam.py : 메인 프로그램으로 입력 이미지가 어떤 부품인지 판별하는 프로그램 입니다.
+- modeler.py : SNN 모델 훈련용 코드 입니다. 한번에 모든 이미지 쌍을 메모리에 탑재하기에 메모리 사용량에 주의해주세요.
+- modeler2.py : SNN 모델 훈련용 코드입니다. 제네레이터로 이미지 쌍을 나누어 메모리에 탑재합니다.
+- liteTester.py : tflite로 변환된 모델 테스트 코드입니다.
+- tflitemaker.py : SNN 모델로 훈련된 saved_model을 float16 방식으로 양자화하여 변환시켜 줍니다.
+
+ESP32 폴더는 ESP32-CAM에 모델 업로드 테스트용 코드입니다. 프로젝트 실행시 사용되지 않습니다. 
+
 ### UI 설명
 
 ![UI](/assets/UI.png)  
