@@ -19,8 +19,21 @@
 
 
 ## 4. 소개 및 시연 영상
-영상 대체 혹은 간략한 소개 입력
-수요일 완성시 결정 예정
+### Siamese Neural Network
+![SNN](/assets/SNN.png)
+SNN은 위 그림에서 설명하는 것과 같이, weight를 공유하는 neural network입니다.<br/>
+이 네트워크를 input 이미지가 통과하게 되면, embedding 과정을 거쳐, distance가 산출됩니다.<br/>
+이 distance 값을 이용하여, 두 input 이미지가 동일한 클라스인지, 다른 클라스인지를 비교할 수 있습니다.<br/>
+
+### Few Shot Learning
+![Few](/assets/fewshot-Kor.png)
+SNN을 통해 학습된 클라스 데이터를 바탕으로 유사도를 비교한 모델을 제작합니다.<br/>
+이 모델을 이용하여, 검색할 이미지 penguin이 들어왔다고 합니다.<br/>
+이 이미지를 기존의 학습된 클라스와 유사도를 비교합니다.<br/>
+가장 유사도 점수가 높은 클라스를 반환하여 해당 이미지가 어떤 클라스인지를 예측합니다.<br/>
+
+### 시연 영상
+유튜브 링크 업로드로 예정
 
 ## 5. 사용법
 ### Python Requirements
