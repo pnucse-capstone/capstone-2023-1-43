@@ -7,7 +7,7 @@
 ## 2. 팀 소개
 ### Team Return 0
 - 윤태훈, thoon19@naver.com, 데이터 수집 및 전처리, SNN 모델 제작
-- 이걍윤, ???@???.???, 모델 테스트 및 UI 제작
+- 이걍윤, kangyun205@naver.com, 모델 테스트 및 UI 제작
 
 ## 3. 구성도
 ![Untitled](/assets/flow.png)  
