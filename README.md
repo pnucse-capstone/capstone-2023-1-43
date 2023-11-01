@@ -33,7 +33,7 @@ SNN을 통해 학습된 클라스 데이터를 바탕으로 유사도를 비교�
 가장 유사도 점수가 높은 클라스를 반환하여 해당 이미지가 어떤 클라스인지를 예측합니다.<br/>
 
 ### 시연 영상
-유튜브 링크 업로드로 예정
+[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/cGS9-24tb7U/0.jpg)](https://www.youtube.com/watch?v=cGS9-24tb7U)    
 
 ## 5. 사용법
 ### Python Requirements
